@@ -357,6 +357,7 @@
 	width: 22px;
 	height: 22px;
   }
+  /*boton azul*/
   .card-content .social-button {
 	margin-top: auto;
 	align-self: flex-end;
@@ -380,6 +381,33 @@
 	box-shadow: -1px 1px 10px blue;
 	transition: 0.2s;
   }
+
+  /*boton verde*/
+  .card-content .green-button {
+	margin-top: auto;
+	align-self: flex-end;
+	margin-bottom: -20px;
+	margin-top: 15px;
+	margin-right: -5px;
+  }
+  .green-button {
+	display: inline-block;
+    background: #056e05;
+    box-shadow: 0 4px 6px rgb(0 0 0 / 15%);
+    border-radius: 3px;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    width: auto;
+	cursor: pointer;
+  }
+  .green-button:hover {
+	color: white;
+	box-shadow: -1px 1px 10px green;
+	transition: 0.2s;
+  }
+
+
   
   /* BOTON VER TODAS LAS RUTAS */
   .main .btn-rutas a {

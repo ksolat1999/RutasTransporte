@@ -12,6 +12,8 @@ import { PagesLoginComponent } from './pages/pages-login/pages-login.component';
 import { PagesError404Component } from './pages/pages-error404/pages-error404.component';
 import { RutasComponent } from './components/rutas/rutas.component';
 import { RutaInfoComponent } from './components/ruta-info/ruta-info.component';
+import { RutasTransmetroComponent } from './components/rutas-transmetro/rutas-transmetro.component';
+import { RutasTransurbanoComponent } from './components/rutas-transurbano/rutas-transurbano.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { RutaInfoComponent } from './components/ruta-info/ruta-info.component';
     PagesLoginComponent,
     PagesError404Component,
     RutasComponent,
-    RutaInfoComponent
+    RutaInfoComponent,
+    RutasTransmetroComponent,
+    RutasTransurbanoComponent
   ],
   imports: [
     BrowserModule,

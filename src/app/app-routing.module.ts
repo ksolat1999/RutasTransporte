@@ -7,18 +7,23 @@ import { PagesError404Component } from './pages/pages-error404/pages-error404.co
 import { PagesLoginComponent } from './pages/pages-login/pages-login.component';
 import { PagesRegisterComponent } from './pages/pages-register/pages-register.component';
 import { UsersProfileComponent } from './pages/users-profile/users-profile.component';
+import { RutasTransmetroComponent } from './components/rutas-transmetro/rutas-transmetro.component';
+import { RutasTransurbanoComponent } from './components/rutas-transurbano/rutas-transurbano.component';
 
 const routes: Routes = [
   { path: '', component: DashboardComponent },
   { path: 'dashboard', component: DashboardComponent },
   { path: 'rutas', component: RutasComponent },
   { path: 'ruta-info', component: RutaInfoComponent },
+  { path: 'rutas-transmetro', component: RutasTransmetroComponent },
+  { path: 'rutas-transurbano', component: RutasTransurbanoComponent },
   { path: 'pages-error404', component: PagesError404Component },
   { path: '404', component: PagesError404Component },
   { path: 'pages-login', component: PagesLoginComponent },
   { path: 'pages-register', component: PagesRegisterComponent },
   { path: 'user-profile', component: UsersProfileComponent },
 ];
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
